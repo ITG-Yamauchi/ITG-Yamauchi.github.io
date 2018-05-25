@@ -2,7 +2,7 @@ $(function(){
 	$("#content").append("js test.");
 	
 	$.ajax({
-	url: 'http://www.ekidata.jp/api/p/20.json',
+	url: 'https://www.ekidata.jp/api/p/20.json',
 	type:'GET',
 	dataType: 'script',
 	timeout:1000,
